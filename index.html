@@ -8,65 +8,30 @@
 <body>
     <script>
 
-/////1
- var a=prompt("enter a range")  
-temp=""  
-for(i=1; i<=a; i++){
-      if(i%2==0){
-        temp=temp+i+" "
+// num=+prompt("enter a number")
+// for(i=0; i<=9; i++){
+//     if(i==num(i)){
+//     }
+// }
+// console.log(i);
+
+////
+
+
+num=+prompt("enter a number:")
+    if(num==7){
     }
-}
- console.log(temp);
-
-
-////2
-
-num = +prompt("enter a number:");
-s = "";
-a = 0; b = 1;
-sumOdd = 0;
-
-if (num == 0) {
-    console.log("invalid input");
-} else {
-    let i = 1;
-    while (i <= num) {
-        if (a % 2 > 0) {
-            s = s + a + " ";
-            sumOdd += a; // Add the odd number to the sum
-        }
-
-        c = a + b;
-        a = b;
-        b = c;
-        
-        i++;
-    }
-    console.log("The odd series of given number: " + s);
-    console.log("The sum of odd Fibonacci numbers: " + sumOdd);
-}
-
-
-///3
-num = +prompt("enter a number:");
-s=""
-for(i=1; !(i==num+1); i++){
-s=s+-i+" "
-
-}
-console.log(s);
-
+    console.log("number is matched");
    
-////4
-num = +prompt("enter a number:");
-s = "";
-for (let i = num; i > 0; i--) {
-    s = s + -i + " ";
-}
-console.log(s);
+
+
+    
 
 
 
-    </script>
+
+
+
+        </script>
 </body>
 </html>
